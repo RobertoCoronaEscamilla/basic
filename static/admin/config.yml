@@ -1,7 +1,10 @@
 backend:
-  name: git-gateway
-  branch: main
-media_folder: "images/uploads"
+  name: github
+  # change repo to your git repository url
+  repo: RobertoCoronaEscamilla/basic
+
+media_folder: static/assets
+public_folder: /assets
 collections:
   - name: "blog"
     label: "Blog"
@@ -13,3 +16,4 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+
