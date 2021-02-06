@@ -1,6 +1,7 @@
 backend:
-  name: git-gateway
-  branch: main
+  name: github
+  # change repo to your git repository url
+  repo: RobertoCoronaEscamilla/basic
 media_folder: "images/uploads"
 collections:
   - name: "blog"
